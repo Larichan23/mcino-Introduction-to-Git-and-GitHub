@@ -1,1 +1,2 @@
+curl -s https://api.github.com/repos/<larichan23>/mcino-Introduction-to-Git-and-GitHub | jq -r '.parent.clone_url'
 
