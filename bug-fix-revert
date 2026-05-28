@@ -1,0 +1,10 @@
+curl https://api.github.com/repos/Larichan23/mcino-Introduction-to-Git-and-GitHub/pulls
+
+Result:
+"head": {
+"ref": "bug-fix-revert"
+}
+
+"base": {
+"ref": "main"
+}
