@@ -1,3 +1,31 @@
-curl -s https://api.github.com/repos/Larichan23/mcino-Introduction-to-Git-and-GitHub | jq -r '.parent.clone_url'
-
-https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub.git
+curl --ssl-no-revoke https://api.github.com/repos/Larichan23/mcino-Introduction-to-Git-and-GitHub
+{
+  "id": 1237045185,
+  "node_id": "R_kgDOSbvPwQ",
+  "name": "mcino-Introduction-to-Git-and-GitHub",
+  "full_name": "Larichan23/mcino-Introduction-to-Git-and-GitHub",
+  "private": false,
+  "owner": {
+    "login": "Larichan23",
+    "id": 276366318,
+    "node_id": "U_kgDOEHkD7g",
+    "avatar_url": "https://avatars.githubusercontent.com/u/276366318?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Larichan23",
+    "html_url": "https://github.com/Larichan23",
+    "followers_url": "https://api.github.com/users/Larichan23/followers",
+    "following_url": "https://api.github.com/users/Larichan23/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Larichan23/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Larichan23/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Larichan23/subscriptions",
+    "organizations_url": "https://api.github.com/users/Larichan23/orgs",
+    "repos_url": "https://api.github.com/users/Larichan23/repos",
+    "events_url": "https://api.github.com/users/Larichan23/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Larichan23/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/Larichan23/mcino-Introduction-to-Git-and-GitHub",
+  "description": "Introduction-to-Git-and-GitHub",
+  "fork": true,
