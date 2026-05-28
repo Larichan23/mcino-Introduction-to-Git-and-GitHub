@@ -1,0 +1,8 @@
+$ git checkout main
+Switched to branch 'main'
+
+$ git merge bug-fix-typo
+Updating 6db59f1..19c8a32
+Fast-forward
+README.md | 2 +-
+1 file changed, 1 insertion(+), 1 deletion(-)
